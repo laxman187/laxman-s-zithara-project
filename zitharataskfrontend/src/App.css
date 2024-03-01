@@ -1,0 +1,66 @@
+/* App.css */
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  margin: 0;
+  background-color: #f8f9fa; /* Light gray background */
+}
+
+input[type="text"],
+select {
+  padding: 10px;
+  margin-right: 10px;
+  border: 1px solid #ced4da; /* Light gray border */
+  border-radius: 5px;
+  outline: none;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: #fff; /* White background for the table */
+}
+
+table th,
+table td {
+  border: 1px solid #dee2e6; /* Light gray border for table cells */
+  padding: 12px;
+}
+
+.button-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  margin-right: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff; /* Blue button */
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button-container button:hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  input[type="text"],
+  select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .button-container {
+    justify-content: center;
+  }
+
+  .button-container button {
+    margin-right: 0;
+  }
+}
